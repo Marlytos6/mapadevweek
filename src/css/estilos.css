@@ -1,17 +1,17 @@
 body {
-    font-family: 'Outfit', sans-serif;
-    background-image: url('../imagens/fundo-site.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
+  font-family: "Outfit", sans-serif;
+  background-image: url(../imagens/fundo-site.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
 
 .cabecalho {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding-top: 50px;
 }
 
 .cabecalho .titulo {
@@ -38,10 +38,10 @@ body {
 }
 
 .btn-seta {
-    background-color: #fff;
+    background-color: #FFF;
     width: 70px;
     height: 70px;
-    border-radius: 50%;
+    border-radius: 50px;
     border: 0;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
@@ -53,7 +53,7 @@ body {
 }
 
 .btn-seta:hover {
-    background-color: #8351fe;
+    background-color: #8351FE;
 }
 
 .cartao {
@@ -75,15 +75,15 @@ body {
 }
 
 .fundo-1 {
-    background: url('../imagens/fundo-card-1.jpg') no-repeat;
+    background: url(../imagens/fundo-card-1.jpg) no-repeat;
 }
 
 .fundo-2 {
-    background: url('../imagens/fundo-card-2.jpg') no-repeat;
+    background: url(../imagens/fundo-card-2.jpg) no-repeat;
 }
 
 .fundo-3 {
-    background: url('../imagens/fundo-card-3.jpg') no-repeat;
+    background: url(../imagens/fundo-card-3.jpg) no-repeat;
 }
 
 .cartao .informacoes {
@@ -91,6 +91,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 8px 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -105,10 +106,9 @@ body {
     color: #f1ecff;
     padding: 6px 10px;
     border-radius: 20px;
-
 }
 
-.cartao .container-imagem{
+.cartao .container-imagem {
     text-align: center;
 }
 
@@ -119,10 +119,9 @@ body {
 }
 
 .cartao .descricao {
-    background-color: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.8);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-
 }
 
 .cartao .descricao .titulo {
@@ -132,7 +131,7 @@ body {
     padding: 12px;
 }
 
-.cartao .descricao .texto{
+.cartao .descricao .texto {
     font-size: 14px;
     padding: 12px;
     text-align: justify;
