@@ -57,6 +57,7 @@ body {
 }
 
 .cartao {
+    opacity: 0;
     background-color: blueviolet;
     height: 100%;
     display: flex;
